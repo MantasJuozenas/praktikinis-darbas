@@ -1,0 +1,56 @@
+.hero {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.heroImg {
+  position: absolute;
+  /* z-index: -1; */
+  top: -50px;
+  left: 100%;
+  transform: translateX(-50%);
+}
+
+.heroText {
+  width: 75%;
+  z-index: 1;
+}
+
+img {
+  height: 400px;
+  width: 450px;
+}
+
+.launchText {
+  text-transform: uppercase;
+  color: #ff3998;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mainTitle {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #111111;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  background-color: transparent;
+  padding: 20.5px 54.23px;
+  border-radius: 37.5px;
+  /* border-image: linear-gradient(to right, rgb(255, 72, 120), rgb(202, 167, 91)); */
+}
