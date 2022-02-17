@@ -31,6 +31,14 @@
   align-items: center;
 }
 
+.icon5 {
+  display: none;
+}
+
+.erang {
+  display: none;
+}
+
 .iconText1 {
   margin: 0;
   font-family: Roboto;

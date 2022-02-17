@@ -1,0 +1,60 @@
+.footer {
+  padding-left: 32px;
+  padding-top: 50px;
+  width: 80%;
+}
+
+.footerInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin-top: 25px;
+}
+
+.box1,
+.box3 {
+  width: 60%;
+}
+
+.box2,
+.box4 {
+  width: 40%;
+}
+
+.copyright {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.footerTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #555555;
+  text-transform: uppercase;
+}
+
+.footerText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.footerMainText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.fa.icon {
+  color: #999999;
+  padding-right: 10px;
+}
