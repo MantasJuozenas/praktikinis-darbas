@@ -1,0 +1,23 @@
+.navBar {
+  display: none;
+}
+
+.sandwich {
+  width: 25px;
+  height: 3px;
+  background-color: #999999;
+  margin: 4px 0;
+}
+
+.logoImg {
+  width: 198px;
+  height: 36px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
