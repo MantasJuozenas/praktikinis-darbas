@@ -1,0 +1,31 @@
+.footerUpsell {
+  padding-left: 32px;
+  position: relative;
+  padding-bottom: 80px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.upsellImg img {
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  top: 100px;
+  left: 60%;
+  z-index: -1;
+}
+
+.footerUpsellText {
+  width: 55%;
+  z-index: 1;
+}
+
+.border {
+  width: 500px;
+  height: 1px;
+  position: absolute;
+  border-bottom: 1px solid #ccc;
+  left: -50px;
+  top: 280px;
+  z-index: 1;
+}
