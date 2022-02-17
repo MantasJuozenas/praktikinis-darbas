@@ -1,0 +1,48 @@
+.iconSection {
+  padding: 60px 32px 60px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+}
+
+.icon1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.icon2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.icon3 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.icon4 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.iconText1 {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 31.02px;
+  color: #999999;
+}
+
+.iconText2 {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 38.39px;
+  color: #999999;
+}
