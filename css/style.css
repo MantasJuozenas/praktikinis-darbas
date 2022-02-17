@@ -8,6 +8,8 @@
 
 @import 'iconsection.css';
 
+@import 'showcase.css';
+
 body {
   margin: 0;
   margin-top: 32px;

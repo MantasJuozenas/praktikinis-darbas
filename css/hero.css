@@ -47,12 +47,27 @@ img {
 }
 
 .btn {
+  cursor: pointer;
+  border: none;
+  width: 188px;
+  height: 75px;
+  border-radius: 30px;
   font-weight: 600;
   font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  background-color: transparent;
-  padding: 20.5px 54.23px;
-  border-radius: 37.5px;
-  /* border-image: linear-gradient(to right, rgb(255, 72, 120), rgb(202, 167, 91)); */
+  position: relative;
+  background: white;
+  margin: 3px;
+}
+
+.btn::after {
+  position: absolute;
+  content: '';
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  z-index: -1;
+  background: url('/img/bgc.png');
+  background-size: cover;
+  border-radius: 33px;
 }
