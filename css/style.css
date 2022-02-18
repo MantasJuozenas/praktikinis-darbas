@@ -25,3 +25,9 @@ body {
 * {
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin: 50px;
+  }
+}
