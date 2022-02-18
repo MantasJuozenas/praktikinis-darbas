@@ -1,0 +1,49 @@
+.navBar {
+  display: none;
+}
+
+.sandwich {
+  width: 25px;
+  height: 3px;
+  background-color: #999999;
+  margin: 4px 0;
+}
+
+.logoImg {
+  width: 198px;
+  height: 36px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .headerContainer {
+    margin: 0;
+  }
+
+  .sandwich {
+    display: none;
+  }
+
+  .navBar {
+    display: inherit;
+    margin-left: 700px;
+  }
+
+  .navBar a {
+    padding: 0 12px;
+    text-decoration: none;
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .navBar .signup {
+    color: #ff3998;
+  }
+}

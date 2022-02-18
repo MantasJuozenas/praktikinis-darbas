@@ -1,0 +1,112 @@
+.hero {
+  padding-top: 50px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+  min-height: 450px;
+  margin-left: 32px;
+}
+
+.heroImg {
+  position: absolute;
+  /* z-index: -1; */
+  top: 0px;
+  left: 98%;
+  transform: translateX(-50%);
+}
+
+.heroText {
+  width: 75%;
+  z-index: 1;
+}
+
+img {
+  height: 400px;
+  width: 450px;
+}
+
+.launchText {
+  text-transform: uppercase;
+  color: #ff3998;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mainTitle {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #111111;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  width: 188px;
+  height: 75px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  background: white;
+  margin: 3px;
+}
+
+.btn::after {
+  position: absolute;
+  content: '';
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  z-index: -1;
+  background: url('/img/bgc.png');
+  background-size: cover;
+  border-radius: 33px;
+}
+
+@media screen and (min-width: 1440px) {
+  img {
+    width: 650px;
+    height: 650px;
+  }
+
+  .heroImg {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+
+  .hero {
+    margin: 100px 0;
+  }
+
+  .heroText {
+    width: 40%;
+  }
+
+  .brake {
+    display: none;
+  }
+
+  .mainTitle {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 90px;
+    color: #111111;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,123 @@
+.showcase {
+  padding-left: 32px;
+  border-bottom: 1px solid #ccc;
+}
+
+.showcaseTitle {
+  font-size: 40px;
+  line-height: 48.41px;
+  font-weight: 500;
+}
+
+.scText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  padding-bottom: 20px;
+}
+
+.scText > a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  text-decoration: none;
+  border-bottom: 1px solid #555555;
+}
+
+.nfts {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.nft {
+  width: 278px;
+  margin-bottom: 80px;
+  margin-right: 56px;
+}
+
+.nftImg {
+  width: 278px;
+  height: 290px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.etherImg {
+  width: 15px;
+  height: 15px;
+}
+
+.texts {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: rgb(238, 238, 238);
+  margin-top: -5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.textBox2 {
+  text-align: end;
+}
+
+.nftNumber {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #777777;
+}
+
+.nftName {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.gsText {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ff8139;
+  text-transform: uppercase;
+}
+
+.days {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #777777;
+}
+
+.ether {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #111111;
+}
+
+.bid {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+  .showcase {
+    padding-left: 0;
+  }
+
+  .nft {
+    width: 290px;
+  }
+
+  .nftImg {
+    width: 290px;
+  }
+}

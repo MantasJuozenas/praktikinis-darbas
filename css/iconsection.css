@@ -1,0 +1,100 @@
+.iconSection {
+  padding: 60px 32px 60px 32px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+}
+
+.icon1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.icon2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.icon3 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.icon4 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.icon5 {
+  display: none;
+}
+
+.erang {
+  display: none;
+}
+
+.iconText1 {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 31.02px;
+  color: #999999;
+}
+
+.iconText2 {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 38.39px;
+  color: #999999;
+}
+
+@media screen and (min-width: 1440px) {
+  .icon5 {
+    display: flex;
+    align-items: center;
+    flex-basis: 0 1 15%;
+    justify-content: center;
+    padding: 0 30px;
+  }
+
+  .erang {
+    display: inherit;
+  }
+  .iconText1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon1 {
+    flex-basis: 0 1 15%;
+    display: flex;
+    justify-content: center;
+  }
+  .icon2 {
+    flex-basis: 0 1 15%;
+    display: flex;
+    justify-content: center;
+  }
+  .icon3 {
+    flex-basis: 0 1 15%;
+    display: flex;
+    justify-content: center;
+  }
+  .icon4 {
+    flex-basis: 0 1 15%;
+    display: flex;
+    justify-content: center;
+  }
+  .iconSection {
+    flex-wrap: nowrap;
+    gap: 5px;
+    padding-left: 0;
+  }
+}

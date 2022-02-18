@@ -1,0 +1,28 @@
+.freeNFT {
+  background-image: url(/img/bgc.png);
+  background-size: cover;
+  padding: 0 32px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.freeTitle {
+  font-size: 40px;
+  line-height: 48.41px;
+  font-weight: 500;
+  color: #111111;
+}
+
+.freeText {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #111111;
+}
+
+@media screen and (min-width: 1440px) {
+  .freeNFT {
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+}

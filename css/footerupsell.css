@@ -1,0 +1,69 @@
+.footerUpsell {
+  padding-left: 32px;
+  position: relative;
+  padding-bottom: 80px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.upsellImg img {
+  position: absolute;
+  width: 200px;
+  height: 500px;
+  top: 100px;
+  left: 60%;
+  z-index: -1;
+}
+
+.footerUpsellText {
+  width: 55%;
+  z-index: 1;
+}
+
+.none {
+  display: none;
+}
+
+.border {
+  width: 500px;
+  height: 1px;
+  position: absolute;
+  border-bottom: 1px solid #ccc;
+  left: -50px;
+  top: 280px;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1440px) {
+  .border {
+    display: none;
+  }
+  .footerUpsell {
+    padding-left: 0;
+  }
+
+  .launchText.footertxt {
+    margin-top: 100px;
+  }
+
+  .mainTitle.footertitle {
+    margin-top: 5px;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 67.77px;
+  }
+
+  .footerbtn {
+    margin-bottom: 50px;
+  }
+
+  .footertext {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .none {
+    display: inline-block;
+  }
+}
