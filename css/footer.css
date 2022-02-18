@@ -58,3 +58,45 @@
   color: #999999;
   padding-right: 10px;
 }
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'fmain finfo'
+      'fflex fflex';
+  }
+
+  .footerMain {
+    grid-area: fmain;
+    margin-top: 15px;
+  }
+
+  .footerInfo {
+    grid-area: finfo;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .footerflex {
+    grid-area: fflex;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box1,
+  .box3 {
+    width: 25%;
+    margin-top: 0;
+  }
+
+  .box2,
+  .box4 {
+    width: 25%;
+    margin-top: 0;
+  }
+}

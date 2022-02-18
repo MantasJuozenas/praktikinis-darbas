@@ -107,3 +107,17 @@
   color: #777777;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 1440px) {
+  .showcase {
+    padding-left: 0;
+  }
+
+  .nft {
+    width: 290px;
+  }
+
+  .nftImg {
+    width: 290px;
+  }
+}

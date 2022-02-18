@@ -57,11 +57,11 @@
 
 @media screen and (min-width: 1440px) {
   .icon5 {
-    display: inherit;
     display: flex;
     align-items: center;
     flex-basis: 0 1 15%;
-    padding-right: 100px;
+    justify-content: center;
+    padding: 0 30px;
   }
 
   .erang {
@@ -69,30 +69,32 @@
   }
   .iconText1 {
     display: flex;
+    justify-content: center;
   }
 
   .icon1 {
     flex-basis: 0 1 15%;
     display: flex;
-    align-items: center;
+    justify-content: center;
   }
   .icon2 {
     flex-basis: 0 1 15%;
     display: flex;
-    align-items: center;
+    justify-content: center;
   }
   .icon3 {
     flex-basis: 0 1 15%;
     display: flex;
-    align-items: center;
+    justify-content: center;
   }
   .icon4 {
     flex-basis: 0 1 15%;
     display: flex;
-    align-items: center;
+    justify-content: center;
   }
   .iconSection {
     flex-wrap: nowrap;
     gap: 5px;
+    padding-left: 0;
   }
 }
