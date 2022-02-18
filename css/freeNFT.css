@@ -19,3 +19,10 @@
   line-height: 30px;
   color: #111111;
 }
+
+@media screen and (min-width: 1024px) {
+  .freeNFT {
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+}
