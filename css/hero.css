@@ -71,3 +71,41 @@ img {
   background-size: cover;
   border-radius: 33px;
 }
+
+@media screen and (min-width: 1024px) {
+  img {
+    width: 650px;
+    height: 650px;
+  }
+
+  .heroImg {
+    position: absolute;
+    z-index: 1;
+    top: -50px;
+    left: 80%;
+    transform: translateX(-50%);
+  }
+
+  .hero {
+    margin: 100px 0;
+  }
+
+  .heroText {
+    width: 56%;
+  }
+
+  .brake {
+    display: none;
+  }
+
+  .mainTitle {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 90px;
+    color: #111111;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}
